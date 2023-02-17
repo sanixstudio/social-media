@@ -1,12 +1,13 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 import { LeftSideBar, Navbar, RightSidebar } from "../components";
 
-const Root = ({ children }) => {
+const Root = () => {
   return (
     <div>
       <Navbar />
       <LeftSideBar />
-      {children}
+      {<Outlet />}
       <RightSidebar />
     </div>
   );
