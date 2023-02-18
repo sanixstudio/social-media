@@ -9,12 +9,14 @@ import Container from "@mui/material/Container";
 import Avatar from "@mui/material/Avatar";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
 import {
+  ConnectWithoutContactOutlined,
   DarkModeOutlined,
   GridViewOutlined,
   HomeOutlined,
 } from "@mui/icons-material";
+import SearchBar from "../searchBar/SearchBar";
+import { Stack } from "@mui/system";
 
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
@@ -31,9 +33,11 @@ function Navbar() {
 
   return (
     <AppBar position="fixed">
-      <Container maxWidth="xl">
+      <Container maxWidth="2xl">
         <Toolbar disableGutters>
-          <AdbIcon />
+          <ConnectWithoutContactOutlined
+            sx={{ fontSize: "3rem", marginRight: ".3em" }}
+          />
           <Typography
             variant="h6"
             noWrap
@@ -43,6 +47,7 @@ function Navbar() {
               mr: 2,
               fontFamily: "monospace",
               fontWeight: 700,
+              marginRight: "1.5em",
               letterSpacing: ".3rem",
               color: "inherit",
               textDecoration: "none",
@@ -51,11 +56,15 @@ function Navbar() {
             SOCIALIZE
           </Typography>
 
-          <HomeOutlined />
-          <DarkModeOutlined />
-          <GridViewOutlined />
+          <Stack direction={"row"} spacing={2}>
+            <HomeOutlined />
+            <DarkModeOutlined />
+            <GridViewOutlined />
+          </Stack>
 
-          <Box sx={{ flexGrow: 1 }}></Box>
+          <Box sx={{ flexGrow: 1 }}>
+            <SearchBar />
+          </Box>
 
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
