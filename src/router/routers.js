@@ -1,8 +1,8 @@
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import { Home, Login, Page404, Register } from "../pages";
-import Root from "../Root/Root";
+import Layout from "../Layout/Layout";
 
-const currentUser = false;
+const currentUser = true;
 
 const ProtectedRoute = ({ children }) => {
   if (!currentUser) {
@@ -17,7 +17,7 @@ export const router = createBrowserRouter([
     path: "/",
     element: (
       <ProtectedRoute>
-        <Root />
+        <Layout />
       </ProtectedRoute>
     ),
     children: [
