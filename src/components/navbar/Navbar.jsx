@@ -32,7 +32,7 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="fixed">
+    <AppBar position="fixed" sx={{ top: 0 }}>
       <Container maxWidth="2xl">
         <Toolbar disableGutters>
           <ConnectWithoutContactOutlined

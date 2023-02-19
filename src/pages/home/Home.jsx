@@ -1,8 +1,9 @@
+import { Box } from "@mui/system";
 import React from "react";
 
 const Home = () => {
   return (
-    <div>
+    <Box>
       <h1>Home</h1>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quos,
@@ -156,7 +157,7 @@ const Home = () => {
         at consequatur dolore corporis ex nam eveniet sunt deleniti labore omnis
         dicta.
       </p>
-    </div>
+    </Box>
   );
 };
 
