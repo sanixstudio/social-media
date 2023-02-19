@@ -8,31 +8,31 @@ import { CardActionArea } from "@mui/material";
 export default function Home() {
   const data = [
     {
-      image: "https://picsum.photos/id/237/200/300",
+      image: "https://picsum.photos/id/237/300/200",
       animalName: "lizard",
       description:
         "Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica",
     },
     {
-      image: "https://picsum.photos/id/27/200/300",
+      image: "https://picsum.photos/id/27/300/200",
       animalName: "Jaguar",
       description:
         "Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica",
     },
     {
-      image: "https://picsum.photos/id/127/200/300",
+      image: "https://picsum.photos/id/127/300/200",
       animalName: "Monkey",
       description:
         "Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica",
     },
     {
-      image: "https://picsum.photos/id/367/200/300",
+      image: "https://picsum.photos/id/367/300/200",
       animalName: "Lion",
       description:
         "Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica",
     },
     {
-      image: "https://picsum.photos/id/627/200/300",
+      image: "https://picsum.photos/id/627/300/200",
       animalName: "Parrot",
       description:
         "Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica",
