@@ -1,164 +1,57 @@
-import { Box } from "@mui/system";
-import React from "react";
+import * as React from "react";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Typography from "@mui/material/Typography";
+import { CardActionArea } from "@mui/material";
 
-const Home = () => {
-  return (
-    <Box>
-      <h1>Home</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quos,
-        provident voluptatem alias modi molestias qui sapiente. Optio ipsa
-        sequi, ratione non id aspernatur unde similique mollitia quaerat ipsam
-        pariatur sit, autem quibusdam. Maiores non, officiis adipisci repellat
-        at consequatur dolore corporis ex nam eveniet sunt deleniti labore omnis
-        dicta.
-      </p>
-      <h1>Home</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quos,
-        provident voluptatem alias modi molestias qui sapiente. Optio ipsa
-        sequi, ratione non id aspernatur unde similique mollitia quaerat ipsam
-        pariatur sit, autem quibusdam. Maiores non, officiis adipisci repellat
-        at consequatur dolore corporis ex nam eveniet sunt deleniti labore omnis
-        dicta.
-      </p>
-      <h1>Home</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quos,
-        provident voluptatem alias modi molestias qui sapiente. Optio ipsa
-        sequi, ratione non id aspernatur unde similique mollitia quaerat ipsam
-        pariatur sit, autem quibusdam. Maiores non, officiis adipisci repellat
-        at consequatur dolore corporis ex nam eveniet sunt deleniti labore omnis
-        dicta.
-      </p>
-      <h1>Home</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quos,
-        provident voluptatem alias modi molestias qui sapiente. Optio ipsa
-        sequi, ratione non id aspernatur unde similique mollitia quaerat ipsam
-        pariatur sit, autem quibusdam. Maiores non, officiis adipisci repellat
-        at consequatur dolore corporis ex nam eveniet sunt deleniti labore omnis
-        dicta.
-      </p>
-      <h1>Home</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quos,
-        provident voluptatem alias modi molestias qui sapiente. Optio ipsa
-        sequi, ratione non id aspernatur unde similique mollitia quaerat ipsam
-        pariatur sit, autem quibusdam. Maiores non, officiis adipisci repellat
-        at consequatur dolore corporis ex nam eveniet sunt deleniti labore omnis
-        dicta.
-      </p>
-      <h1>Home</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quos,
-        provident voluptatem alias modi molestias qui sapiente. Optio ipsa
-        sequi, ratione non id aspernatur unde similique mollitia quaerat ipsam
-        pariatur sit, autem quibusdam. Maiores non, officiis adipisci repellat
-        at consequatur dolore corporis ex nam eveniet sunt deleniti labore omnis
-        dicta.
-      </p>
-      <h1>Home</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quos,
-        provident voluptatem alias modi molestias qui sapiente. Optio ipsa
-        sequi, ratione non id aspernatur unde similique mollitia quaerat ipsam
-        pariatur sit, autem quibusdam. Maiores non, officiis adipisci repellat
-        at consequatur dolore corporis ex nam eveniet sunt deleniti labore omnis
-        dicta.
-      </p>
-      <h1>Home</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quos,
-        provident voluptatem alias modi molestias qui sapiente. Optio ipsa
-        sequi, ratione non id aspernatur unde similique mollitia quaerat ipsam
-        pariatur sit, autem quibusdam. Maiores non, officiis adipisci repellat
-        at consequatur dolore corporis ex nam eveniet sunt deleniti labore omnis
-        dicta.
-      </p>
-      <h1>Home</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quos,
-        provident voluptatem alias modi molestias qui sapiente. Optio ipsa
-        sequi, ratione non id aspernatur unde similique mollitia quaerat ipsam
-        pariatur sit, autem quibusdam. Maiores non, officiis adipisci repellat
-        at consequatur dolore corporis ex nam eveniet sunt deleniti labore omnis
-        dicta.
-      </p>
-      <h1>Home</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quos,
-        provident voluptatem alias modi molestias qui sapiente. Optio ipsa
-        sequi, ratione non id aspernatur unde similique mollitia quaerat ipsam
-        pariatur sit, autem quibusdam. Maiores non, officiis adipisci repellat
-        at consequatur dolore corporis ex nam eveniet sunt deleniti labore omnis
-        dicta.
-      </p>
-      <h1>Home</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quos,
-        provident voluptatem alias modi molestias qui sapiente. Optio ipsa
-        sequi, ratione non id aspernatur unde similique mollitia quaerat ipsam
-        pariatur sit, autem quibusdam. Maiores non, officiis adipisci repellat
-        at consequatur dolore corporis ex nam eveniet sunt deleniti labore omnis
-        dicta.
-      </p>
-      <h1>Home</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quos,
-        provident voluptatem alias modi molestias qui sapiente. Optio ipsa
-        sequi, ratione non id aspernatur unde similique mollitia quaerat ipsam
-        pariatur sit, autem quibusdam. Maiores non, officiis adipisci repellat
-        at consequatur dolore corporis ex nam eveniet sunt deleniti labore omnis
-        dicta.
-      </p>
-      <h1>Home</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quos,
-        provident voluptatem alias modi molestias qui sapiente. Optio ipsa
-        sequi, ratione non id aspernatur unde similique mollitia quaerat ipsam
-        pariatur sit, autem quibusdam. Maiores non, officiis adipisci repellat
-        at consequatur dolore corporis ex nam eveniet sunt deleniti labore omnis
-        dicta.
-      </p>
-      <h1>Home</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quos,
-        provident voluptatem alias modi molestias qui sapiente. Optio ipsa
-        sequi, ratione non id aspernatur unde similique mollitia quaerat ipsam
-        pariatur sit, autem quibusdam. Maiores non, officiis adipisci repellat
-        at consequatur dolore corporis ex nam eveniet sunt deleniti labore omnis
-        dicta.
-      </p>
-      <h1>Home</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quos,
-        provident voluptatem alias modi molestias qui sapiente. Optio ipsa
-        sequi, ratione non id aspernatur unde similique mollitia quaerat ipsam
-        pariatur sit, autem quibusdam. Maiores non, officiis adipisci repellat
-        at consequatur dolore corporis ex nam eveniet sunt deleniti labore omnis
-        dicta.
-      </p>
-      <h1>Home</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quos,
-        provident voluptatem alias modi molestias qui sapiente. Optio ipsa
-        sequi, ratione non id aspernatur unde similique mollitia quaerat ipsam
-        pariatur sit, autem quibusdam. Maiores non, officiis adipisci repellat
-        at consequatur dolore corporis ex nam eveniet sunt deleniti labore omnis
-        dicta.
-      </p>
-      <h1>Home</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure quos,
-        provident voluptatem alias modi molestias qui sapiente. Optio ipsa
-        sequi, ratione non id aspernatur unde similique mollitia quaerat ipsam
-        pariatur sit, autem quibusdam. Maiores non, officiis adipisci repellat
-        at consequatur dolore corporis ex nam eveniet sunt deleniti labore omnis
-        dicta.
-      </p>
-    </Box>
-  );
-};
+export default function Home() {
+  const data = [
+    {
+      image: "https://picsum.photos/id/237/200/300",
+      animalName: "lizard",
+      description:
+        "Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica",
+    },
+    {
+      image: "https://picsum.photos/id/27/200/300",
+      animalName: "Jaguar",
+      description:
+        "Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica",
+    },
+    {
+      image: "https://picsum.photos/id/127/200/300",
+      animalName: "Monkey",
+      description:
+        "Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica",
+    },
+    {
+      image: "https://picsum.photos/id/367/200/300",
+      animalName: "Lion",
+      description:
+        "Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica",
+    },
+    {
+      image: "https://picsum.photos/id/627/200/300",
+      animalName: "Parrot",
+      description:
+        "Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica",
+    },
+  ];
 
-export default Home;
+  return data.map((card) => (
+    <Card sx={{ width: "600px", margin: "0 auto", marginBottom: 4 }}>
+      <CardActionArea>
+        <CardMedia component="img" image={card.image} alt="green iguana" />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            {card.animalName}
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            {card.description}
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+  ));
+}
