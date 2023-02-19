@@ -8,30 +8,35 @@ import { CardActionArea } from "@mui/material";
 export default function Home() {
   const data = [
     {
+      id: 1,
       image: "https://picsum.photos/id/237/300/200",
       animalName: "lizard",
       description:
         "Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica",
     },
     {
+      id: 2,
       image: "https://picsum.photos/id/27/300/200",
       animalName: "Jaguar",
       description:
         "Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica",
     },
     {
+      id: 3,
       image: "https://picsum.photos/id/127/300/200",
       animalName: "Monkey",
       description:
         "Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica",
     },
     {
+      id: 4,
       image: "https://picsum.photos/id/367/300/200",
       animalName: "Lion",
       description:
         "Lizards are a widespread group of squamate reptiles, with over 6,000species, ranging across all continents except Antarctica",
     },
     {
+      id: 5,
       image: "https://picsum.photos/id/627/300/200",
       animalName: "Parrot",
       description:
@@ -40,7 +45,10 @@ export default function Home() {
   ];
 
   return data.map((card) => (
-    <Card sx={{ width: "600px", margin: "0 auto", marginBottom: 4 }}>
+    <Card
+      sx={{ width: "600px", margin: "0 auto", marginBottom: 4 }}
+      key={card.id}
+    >
       <CardActionArea>
         <CardMedia component="img" image={card.image} alt="green iguana" />
         <CardContent>

@@ -1,6 +1,6 @@
 import { createBrowserRouter, Navigate } from "react-router-dom";
+import App from "../App";
 import { Home, Login, Page404, Register } from "../pages";
-import Layout from "../Layout/Layout";
 
 const currentUser = true;
 
@@ -17,7 +17,7 @@ export const router = createBrowserRouter([
     path: "/",
     element: (
       <ProtectedRoute>
-        <Layout />
+        <App />
       </ProtectedRoute>
     ),
     children: [
